@@ -3,9 +3,9 @@ interface ItemsProps {
     tempo: string;
 }
 
-export default function Items({tarefa, tempo}: ItemsProps) {
+export default function Item({tarefa, tempo}: ItemsProps) {
     return (
-        <li className="bg-slate-600 p-3 rounded-lg shadow-shape">
+        <li className="bg-slate-600 p-2 rounded-lg shadow-shape">
             <h3>{tarefa}</h3>
             <span>{tempo}</span>
         </li>
